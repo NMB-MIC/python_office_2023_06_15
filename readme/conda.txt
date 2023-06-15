@@ -1,0 +1,8 @@
+conda create -n python_office python
+conda env remove -n python_office
+conda activate python_office 
+conda deactivate python_office
+conda list
+conda env list
+pip install ipykernel
+pip uninstall ipykernel
