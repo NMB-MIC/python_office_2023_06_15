@@ -1,3 +1,5 @@
+#script node-red conda activate python_office && python "D:\My Documents\Desktop\python_office\src\sale_report_script.py"
+
 # %% [markdown]
 # ## Excel to report
 
@@ -115,7 +117,7 @@ plot= sheet_report.pictures.add(fig,top=sheet["A3"].top,left=sheet["A3"].left)
 plot.width = plot.width*0.8
 plot.height = plot.height*0.8
 
-
+#template.save(f"D:\export\summary_sale_report_{date_file_name}.xlsx")
 template.save(f"""D:\My Documents\Desktop\python_office\src\export\summary_sale_report_{date_file_name}.xlsx""")
 #template.save(f"export\summary_sale_report_{date_file_name}.xlsx")
 template.close()
